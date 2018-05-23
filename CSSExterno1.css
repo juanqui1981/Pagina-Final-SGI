@@ -1,0 +1,142 @@
+body{
+	background-color: aqua;
+}
+main {
+	width: 100%;
+	margin: auto;
+}
+header{
+	background-color: #222280;
+	tab-size: center;
+	padding-bottom: 25px;
+}
+.logo {
+	background-image: url(./Imagenes/Asia1.gif);
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: relative;
+	top: 10px;
+	left: 150px;
+	height: 75px;
+}
+nav {
+	float: right;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+nav a {
+	color: white;
+	text-decoration: none;
+	background-color: #222280;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-right: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+nav a:hover {
+	color: blue;
+	background-color: aliceblue;
+}
+img {
+	height: 300px;
+	margin-top: 5%;
+	border: 2px solid black;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+h1{ 
+	color: red;
+}
+h2{
+	color: white;
+}
+h3 {
+	color: blue;
+}
+p {
+	color: blue;
+}
+section div {
+	height: 300px;
+	margin-top: 5%;
+}
+.izquierda {
+	padding-left: 10px;
+	margin-top: 4.5%;
+	margin-left:5%;
+	margin-right:auto;
+	width: 40%;
+	background-color: #f4f2f2;
+	float: left;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.derecha {
+	position: relative;
+	width: 500px;
+	float: left;
+}
+.ciudad {
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	font-size: 30px;
+	color: white;
+}
+form label {
+	color: blue;
+}
+form input {
+	margin-bottom: 10px;
+	width: 75%;
+	padding-right: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+form {
+	width: 100%;
+	float: left;
+	clear: both;
+}
+.videos{
+	position: absolute;
+	right: 720px;
+	top: 500px;
+	width: 40%;
+}
+.enviar {
+	margin-left: 40%;
+	margin-top: 10px;
+	background-color: blue;
+}
+.check {
+	text-align: left;
+	margin-left: auto;
+	color: blue;
+}
+.redes {
+	border-style: none;
+	width: 30px;
+	height: 30px;
+}
+.redes2 {
+	border-style: none;
+	width: 100px;
+	height: 30px;
+}
+.social {
+	margin-top: 800px;
+	width: 25%;
+	clear: both;
+}

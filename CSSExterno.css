@@ -1,0 +1,37 @@
+h1 {font-family: "Times new roman";font-size:30px;font-style: italic;}
+h2 {font-family: "verdana";font-size: 20px; }
+main {
+    background-color: aquamarine;
+	color: brown;
+	width: 80%;
+	height: 2000px;
+	margin: auto;
+	/*background-image: url(../Imagenes/informatica.jpg);*/
+	background-repeat: no-repeat;
+	background-size: 100%;
+	animation-name: colores;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+    }
+ h1,h2 {
+        color: burlywood;
+		text-align: right;
+        }
+ p {
+    background-color: olive; 
+	color: red;
+    text-align: center;
+    }
+ hr {
+    background-color: aqua;
+    }
+table,th,td {
+	background-color: aliceblue;
+    margin: auto;
+	text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+@keyframes colores {
+	from {background-image: url(../Imagenes/informatica.jpg);}
+	to {background-image: url(../Imagenes/imagen3.jpg);}
