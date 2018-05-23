@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="productos.xslt"?>
+<stock>
+	<producto>
+		<nombre>DVD</nombre>
+		<categoria>Primera</categoria>
+		<tipo>1A</tipo>
+		<precio>15,36€</precio>
+		<descripcion>Producto ofrecido para satisfacer a los mas exigentes</descripcion>
+		<imagen>./Imagenes/dvd.jpg</imagen>
+	</producto>
+	<producto>
+		<nombre>CD-ROM</nombre>
+		<categoria>Primera</categoria>
+		<tipo>3C</tipo>
+		<precio>8,59€</precio>
+		<descripcion>Un recuerdo al pasado</descripcion>
+		<imagen>./Imagenes/cd.jpg</imagen>
+	</producto>
+	<producto>
+		<nombre>Disquete</nombre>
+		<categoria>Primera</categoria>
+		<tipo>9UTF</tipo>
+		<precio>1,54€</precio>
+		<descripcion>Una mirada al pasado solo para los mas sibaritas</descripcion>
+		<imagen>./Imagenes/Disquete.jpg</imagen>
+	</producto>
+	<producto>
+		<nombre>USB 3.0</nombre>
+		<categoria>Primera</categoria>
+		<tipo>3.0</tipo>
+		<precio>9,95€</precio>
+		<descripcion>La mas moderna tecnologia</descripcion>
+		<imagen>./Imagenes/usb.jpg</imagen>
+	</producto>
+</stock>
